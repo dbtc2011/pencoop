@@ -13,13 +13,13 @@
 
 Route::resource('acc_verifier','AccVerifierController');
 Route::resource('home','HomeController');
-// Route::get('home','HomeController@index');
 Route::get('about','HomeController@about');
 Route::get('services','HomeController@services');
 Route::get('events','HomeController@events');
 Route::get('contact','HomeController@contact');
 Route::get('loan','HomeController@loan');
-Route::get('summary','HomeController@summary');
+// Route::get('summary','HomeController@summary');
+// Route::get('summary_details','HomeController@summary_details');
 Route::get('/', function () {
     return view('home');
 });

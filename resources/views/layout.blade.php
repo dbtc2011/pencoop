@@ -125,11 +125,11 @@
     <header>
         <div class="topnav" id="myTopnav">
             <title>PENCOOP</title>
-            <a href="/contact">Contact Us</a>
-            <a href="/events">Events</a>
-            <a href="/services">Services</a>
-            <a href="/about">Our Story</a>
-            <a href="/home">Home</a>
+            <a href="contact">Contact Us</a>
+            <a href="events">Events</a>
+            <a href="services">Services</a>
+            <a href="about">Our Story</a>
+            <a href="{{ route('home.index') }}">Home</a>
         </div>
     </header>
     <body style="background: goldenrod">
